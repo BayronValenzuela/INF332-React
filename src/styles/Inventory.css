@@ -1,0 +1,46 @@
+.page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.inventory-container {
+    list-style-type: none; /* Removing the default bullet points of ul */
+    padding: 0; /* Removing the default padding of ul */
+}
+
+.inventory-item {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.inventory-button {
+    margin-top: 20px;
+    width: fit-content; /* Making the button width only as wide as its content */
+    margin-left: auto; /* Aligning the button to the right */
+    margin-right: auto;
+}
+
+.objeto {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cantidad {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.categoria {
+    font-size: 14px;
+    color: white;
+    background-color: #6f42c1;
+    border-radius: 3px;
+    padding: 2px 8px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+

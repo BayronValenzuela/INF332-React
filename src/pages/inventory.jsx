@@ -1,22 +1,25 @@
 import { Button } from 'react-bootstrap';
 import getInventoryItems from '../components/getInventoryItems';
+import '../styles/Inventory.css';
 
 function Inventory() {
-  // Fetch the inventory items using the getInventoryItems function
   const inventoryItems = getInventoryItems();
 
   return (
     <div className='page'>
       <h1>Página de inventario</h1>
-      {/* Display the inventory items */}
-      <ul>
+      
+      <div className="inventory-container">
         {inventoryItems.map((item, index) => (
-          <li key={index}>
-            Categoria: {item.category}, Objeto: {item.item}, Cantidad: {item.quantity}
-          </li>
+          <div className="inventory-item" key={index}>
+            <div className="objeto">{item.item}</div>
+            <div className="cantidad">Cantidad: {item.quantity}</div>
+            <span className="categoria">{item.category}</span>
+          </div>
         ))}
-      </ul>
-      <Button href="/addinventory" variant="primary">
+      </div>
+      
+      <Button className="inventory-button" href="/addinventory" variant="primary">
         Añadir al Inventario
       </Button>
     </div>
@@ -24,5 +27,7 @@ function Inventory() {
 }
 
 export default Inventory;
+
+
 
 
