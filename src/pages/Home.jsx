@@ -10,7 +10,7 @@ function Home() {
         <Link to="/inventory" className="home-button">
           Inventario
         </Link>
-        <Link to="/voluntarios" className="home-button">
+        <Link to="/volunteerings" className="home-button">
           Voluntarios
         </Link>
       </div>

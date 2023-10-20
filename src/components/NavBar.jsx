@@ -9,7 +9,7 @@ function NavBar() {
     <>
       <Navbar bg="light" data-bs-theme="light" className="mb-3">
         <Nav>
-          <Nav.Link href="/">LOGO</Nav.Link>
+          <Nav.Link href="/">HOME</Nav.Link>
         </Nav>
         <Nav className="ms-auto">
           <Nav.Link href="/profile">

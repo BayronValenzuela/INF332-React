@@ -2,14 +2,14 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
-import Chats from "./components/Chats";
-import Profile from "./components/Profile";
+import Chats from "./pages/Chats";
+import Profile from "./pages/Profile";
 import Inventory from "./pages/inventory";
 import AddInventory from "./pages/addInventory";
-import Volunteerings from "./components/Volunteerings";
-import Volunteering from "./components/volunteering";
+import Volunteerings from "./pages/Volunteerings";
+import Volunteering from "./pages/volunteering";
 
 export default function App() {
   return (
