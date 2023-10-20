@@ -4,8 +4,8 @@
 }
 
 .inventory-container {
-    list-style-type: none; /* Removing the default bullet points of ul */
-    padding: 0; /* Removing the default padding of ul */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 .inventory-item {
@@ -17,11 +17,21 @@
 }
 
 .inventory-button {
-    margin-top: 20px;
-    width: fit-content; /* Making the button width only as wide as its content */
-    margin-left: auto; /* Aligning the button to the right */
-    margin-right: auto;
+    margin: 20px;
+    width: 50px;  
+    height: 50px;
+    border-radius: 50%; 
+    font-size: 30px;
+    position: fixed;
+    right: 0;  
+    bottom: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #007BFF;
+    color: #fff;
 }
+
 
 .objeto {
     font-size: 24px;
@@ -43,4 +53,5 @@
     display: inline-block;
     text-transform: uppercase;
 }
+
 

@@ -20,7 +20,7 @@ function Inventory() {
       </div>
       
       <Button className="inventory-button" href="/addinventory" variant="primary">
-        Añadir al Inventario
+        +   
       </Button>
     </div>
   );
