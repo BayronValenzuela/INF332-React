@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "place": "Chillán",
+    "people_registered": 25,
+    "date": "22 de Octubre del 2023",
+    "description": ["Fuerte impacto", "Inundaciones"]
+  },
+  {
+    "id": 2,
+    "place": "Valdivia",
+    "people_registered": 18,
+    "date": "25 de Octubre del 2023",
+    "description": ["Deslizamientos de tierra"]
+  },
+  {
+    "id": 3,
+    "place": "Concepción",
+    "people_registered": 37,
+    "date": "27 de Octubre del 2023",
+    "description": ["Incendios forestales"]
+  },
+  {
+    "id": 4,
+    "place": "Puerto Montt",
+    "people_registered": 42,
+    "date": "29 de Octubre del 2023",
+    "description": ["Inundaciones", "Cortes de energía"]
+  },
+  {
+    "id": 5,
+    "place": "Santiago",
+    "people_registered": 30,
+    "date": "31 de Octubre del 2023",
+    "description": ["Deslizamientos de tierra", "Inundaciones"]
+  },
+  {
+    "id": 6,
+    "place": "Iquique",
+    "people_registered": 12,
+    "date": "02 de Noviembre del 2023",
+    "description": ["Tormentas eléctricas"]
+  },
+  {
+    "id": 7,
+    "place": "La Serena",
+    "people_registered": 19,
+    "date": "04 de Noviembre del 2023",
+    "description": ["Inundaciones"]
+  },
+  {
+    "id": 8,
+    "place": "Antofagasta",
+    "people_registered": 28,
+    "date": "06 de Noviembre del 2023",
+    "description": ["Deslizamientos de tierra", "Inundaciones"]
+  },
+  {
+    "id": 9,
+    "place": "Arica",
+    "people_registered": 14,
+    "date": "08 de Noviembre del 2023",
+    "description": ["Incendios forestales"]
+  },
+  {
+    "id": 10,
+    "place": "Punta Arenas",
+    "people_registered": 8,
+    "date": "10 de Noviembre del 2023",
+    "description": ["Inundaciones", "Cortes de energía"]
+  },
+  {
+    "id": 11,
+    "place": "Rancagua",
+    "people_registered": 33,
+    "date": "12 de Noviembre del 2023",
+    "description": ["Deslizamientos de tierra", "Inundaciones"]
+  },
+  {
+    "id": 12,
+    "place": "Valparaíso",
+    "people_registered": 21,
+    "date": "14 de Noviembre del 2023",
+    "description": ["Tormentas eléctricas"]
+  },
+  {
+    "id": 13,
+    "place": "Temuco",
+    "people_registered": 45,
+    "date": "16 de Noviembre del 2023",
+    "description": ["Inundaciones"]
+  },
+  {
+    "id": 14,
+    "place": "Iquique",
+    "people_registered": 13,
+    "date": "18 de Noviembre del 2023",
+    "description": ["Deslizamientos de tierra", "Inundaciones"]
+  },
+  {
+    "id": 15,
+    "place": "La Serena",
+    "people_registered": 29,
+    "date": "20 de Noviembre del 2023",
+    "description": ["Incendios forestales"]
+  },
+  {
+    "id": 16,
+    "place": "Valdivia",
+    "people_registered": 23,
+    "date": "23 de Octubre del 2023",
+    "description": ["Inundaciones"]
+  }
+]

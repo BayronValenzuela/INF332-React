@@ -1,0 +1,57 @@
+.page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.inventory-container {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.inventory-item {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.inventory-button {
+    margin: 20px;
+    width: 50px;  
+    height: 50px;
+    border-radius: 50%; 
+    font-size: 30px;
+    position: fixed;
+    right: 0;  
+    bottom: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+
+.objeto {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cantidad {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.categoria {
+    font-size: 14px;
+    color: white;
+    background-color: #6f42c1;
+    border-radius: 3px;
+    padding: 2px 8px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
